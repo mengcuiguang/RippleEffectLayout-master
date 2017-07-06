@@ -20,7 +20,7 @@
 </com.arjinmc.rippleeffectlayout.RippleEffectLayout>
 ```
 
-## java code way
+## 动态设置
 ```java
 RippleEffectLayout rippleEffectLayout = new RippleEffectLayout.Builder(this)
                 .childView(textView)
