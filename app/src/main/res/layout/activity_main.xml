@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.meng.rippleeffectlayout.RippleEffectLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:color="#000000"
+        app:colorAlpha="0.2"
+        app:maxRadius="800dp"
+        app:minRadius="100dp"
+        app:useCenter="false">
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="胡辣汤" />
+    </com.meng.rippleeffectlayout.RippleEffectLayout>
+
+    <com.meng.rippleeffectlayout.RippleEffectLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:color="#000000"
+        app:colorAlpha="0.2"
+        app:maxRadius="800dp"
+        app:minRadius="100dp"
+        app:useCenter="false">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#00000000"
+            android:text="button" />
+    </com.meng.rippleeffectlayout.RippleEffectLayout>
+
+</LinearLayout>
