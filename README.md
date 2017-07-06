@@ -1,11 +1,11 @@
 # RippleEffectLayout
-RippleEffectLayout like Android 5.0 ripple effect for button, support every view.
+点击控件波纹效果，适用于95%以上控件
 
-![img](sample.gif)
+![img](https://github.com/mengcuiguang/RippleEffectLayout-master/blob/master/test.gif)
 
-## xml way
+## 布局文件
 ```java
-<com.arjinmc.rippleeffectlayout.RippleEffectLayout
+<com.meng.rippleeffectlayout.RippleEffectLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:minRadius="100"
@@ -14,12 +14,9 @@ RippleEffectLayout like Android 5.0 ripple effect for button, support every view
     app:color="#000000"
     app:useCenter="true"
     android:padding="16dp">
-    <CheckBox
-        android:id="@+id/check"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ATTENTION!"
-        />
+    
+    <要点击的子布局>
+  
 </com.arjinmc.rippleeffectlayout.RippleEffectLayout>
 ```
 
